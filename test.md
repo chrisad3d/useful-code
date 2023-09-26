@@ -1,3 +1,5 @@
 This is some useful code:
 
-python -m pdb (add your filepath and file name here)
+1. This statement loads your source code and stops execution on the first line of code.
+
+       python -m pdb (add your filepath and file name here)
