@@ -43,3 +43,21 @@
          if arr[i] == x:<br>
             return i<br>
       return -1<br>
+
+**4. Binary Search Itertive**
+
+def binarySearchIt(arr, num):<br>
+    low = 0<br>
+    high = len(arr) - 1<br>
+    mid = 0<br>
+
+while low <= high:<br>
+mid = (high + low) // 2<br>
+
+if arr[mid] < num:<br>
+low = mid + 1<br>
+elif arr[mid] > num:<br>
+high = mid - 1<br>
+else:<br>
+return mid<br>
+return - 1<br>
