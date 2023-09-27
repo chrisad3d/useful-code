@@ -8,3 +8,7 @@ This is some useful code:
    This statement loads your source code and stops execution on the first line of code.
 
        python -m pdb (add your filepath and file name here)
+
+   This is the syntax for VLOOKUP is.
+
+         =VLOOKUP(lookup_value, table_array, col_index_number,[range_lookup])
