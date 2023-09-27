@@ -34,3 +34,12 @@
 
    Use $ infront of each cell reference element to maintain absolute referencing when copying formula down column of cells.<br>
       * _e.g. =XLOOKUP(A12,Data!$A$2:$A$6,Data!$B$2:$C$6,)_
+
+
+**3. Linear Search**
+
+   def linearSearch(arr, x):<br>
+     for i in range(len(arr)):
+       if arr[i] == x:
+            return i
+     return -1
