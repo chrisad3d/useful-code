@@ -61,3 +61,29 @@ high = mid - 1<br>
 else:<br>
 return mid<br>
 return - 1<br>
+
+**Linear Search Tracker**
+
+If num = 2
+
+If arr = [1 2 3 4 5 6 7 8 9]
+
+**First Pass**<br>
+low 0<br>
+mid 0<br>
+high 9 - 1 = 8<br>
+is low <= high? YES<br>
+mid (8 + 0) // 2 = 4<br>
+is arr[position 4] or 5 < 2? no<br>
+is arr[position 4] or 5 > 2? yes<br>
+high = 4 - 1 = 3<br>
+
+**Second Pass**<br>
+low 0<br>
+high 3<br>
+mid 4<br>
+is low <= high? YES<br>
+mid (3 + 0) // 2 = 1<br>
+is arr[position 1] or 2 < 2? NO<br>
+is arr[position 1] or 2 > 2? NO<br>
+return 2<br>
