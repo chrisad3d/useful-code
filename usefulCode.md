@@ -39,7 +39,7 @@
 **3. Linear Search**
 
    def linearSearch(arr, x):<br>
-     for i in range(len(arr)):
-       if arr[i] == x:
-            return i
-     return -1
+     for i in range(len(arr)):<br>
+       if arr[i] == x:<br>
+            return i<br>
+     return -1<br>
