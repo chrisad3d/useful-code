@@ -1,7 +1,6 @@
-This is some useful code:
+**This is some useful code:**
 
-1. Debugging
-   
+**1. Debugging in Python**
 
    From the Command Line: It is the easiest way of using a debugger. You just have to run the following command in terminal.
 
@@ -9,7 +8,16 @@ This is some useful code:
 
        python -m pdb (add your filepath and file name here)
 
-   This is the syntax for VLOOKUP is.
+   Can also use the built-in _Breakpoint()_ function within code, invokes debugger from pdb module automatically at whatever point you call the function, better for stepping through / debugging specific sections of code, rather than whole program.
+
+*c: continue execution
+*q: quit the debugger/execution
+*n: step to next line within the same function
+*s: step to next line in this function or a called function
+ 
+**2. Spreadsheets**
+
+   This is the syntax for VLOOKUP.
 
          =VLOOKUP(lookup_value, table_array, col_index_number,[range_lookup])
 
