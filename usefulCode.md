@@ -87,3 +87,9 @@ mid (3 + 0) // 2 = 1<br>
 is arr[position 1] or 2 < 2? NO<br>
 is arr[position 1] or 2 > 2? NO<br>
 return 2<br>
+
+**Use random to generate names:**
+
+import random <br>
+names = ['bob', 'jane', 'sally'] <br>
+print(names.pop(random.randrange(len(names))))
